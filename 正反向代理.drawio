@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T12:35:35.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" version="22.0.8" etag="eUGCXtT0K3-dJMcN7Zvh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T12:38:37.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="WBR_uZNmjPbW_BBs2nwg" version="22.0.8" type="github">
   <diagram name="第 1 页" id="gK5NTp8SZCyf67gfucFM">
-    <mxGraphModel>
+    <mxGraphModel dx="936" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0ZI8QtbClrWlwTJy2sC6-1" target="0ZI8QtbClrWlwTJy2sC6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-1" value="客户端client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0ZI8QtbClrWlwTJy2sC6-2" target="0ZI8QtbClrWlwTJy2sC6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-2" value="代理服务器proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-3" value="服务端server" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-6" value="对于server端来说，请求都一致来自于代理proxy，因此隐藏了客户端的真实身份" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="140" width="450" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
