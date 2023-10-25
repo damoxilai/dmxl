@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T12:41:29.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="8btDpBdzcfySLzrP2y-Z" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T12:43:03.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="MueWuUf03N2uMDg3gezR" version="22.0.8" type="github">
   <diagram name="第 1 页" id="gK5NTp8SZCyf67gfucFM">
     <mxGraphModel dx="936" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="0ZI8QtbClrWlwTJy2sC6-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillStyle=hatch;" vertex="1" parent="1">
           <mxGeometry x="310" y="240" width="490" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZI8QtbClrWlwTJy2sC6-16" value="对于客户端来说，请求会通过代理proxy转发到server端，因此隐藏了服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
